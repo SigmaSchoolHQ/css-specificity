@@ -11,37 +11,33 @@ body {
 	box-sizing: border-box;
 	line-height: 1.5;
 }
+/* ================================================
+                      Intro
+================================================ */
 
 /* inheriting styles from a parent */
 div {
 	color: blue;
-	border: 1px solid blue;
+	background-color: orange;
 	padding: 1rem;
 }
 /* Targeting an element by name */
 h1 {
-	color: green;
-	border: 1px solid green;
-	padding: 1rem;
-}
-
-/* Targeting a nested element based on relationship with a parent */
-div h1 {
-	color: red;
-	border: 1px solid red;
+	color: white;
+	border: 1px solid white;
 	padding: 1rem;
 }
 
 /* Targeting an element by class */
 .heading {
 	color: orange;
-	border: 1px solid orange;
-	padding: 1rem;
+	background-color: dodgerblue;
 }
 
 /* Targeting an element by id */
 #main {
 	color: purple;
-	border: 1px solid purple;
+	border: 3px solid purple;
+	border-radius: 3px;
 	padding: 1rem;
 }
