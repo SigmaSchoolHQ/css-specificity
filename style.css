@@ -21,17 +21,18 @@ div {
 	background-color: orange;
 	padding: 1rem;
 }
+
+/* Targeting an element by class */
+.heading {
+	color: orange !important;
+	background-color: dodgerblue;
+}
+
 /* Targeting an element by name */
 h1 {
 	color: white !important;
 	border: 1px solid white !important;
 	padding: 1rem;
-}
-
-/* Targeting an element by class */
-.heading {
-	color: orange;
-	background-color: dodgerblue;
 }
 
 /* Targeting an element by id */
