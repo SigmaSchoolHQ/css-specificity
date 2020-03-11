@@ -12,49 +12,55 @@ body {
 	line-height: 1.5;
 }
 /* ================================================
-                      Intro
+            Intro
 ================================================ */
 
 /* inheriting styles from a parent */
 div {
-	color: blue;
-	background-color: orange;
+	color: #15ccbb;
+	background-color: #333;
+	padding: 1rem;
+}
+
+/* Targeting an element by name */
+/* h1 {
+	color: white !important;
+	border: 1px solid white !important;
+	padding: 1rem;
+} */
+
+h1 {
+	color: white;
+	border: 1px solid white;
 	padding: 1rem;
 }
 
 /* Targeting an element by class */
 .heading {
-	color: orange !important;
-	background-color: dodgerblue;
-}
-
-/* Targeting an element by name */
-h1 {
-	color: white !important;
-	border: 1px solid white !important;
-	padding: 1rem;
+	color: #333;
+	background-color: #15ccbb;
 }
 
 /* Targeting an element by id */
-#main {
+/* #main {
 	color: purple;
 	border: 3px solid purple;
 	border-radius: 3px;
 	padding: 1rem;
-}
+} */
 
-p {
+/* p {
 	color: blue;
-}
+} */
 
-p.paragraph {
+/* p.paragraph {
 	color: purple;
-}
+} */
 
-.paragraph {
+/* .paragraph {
 	color: green;
-}
+} */
 
-#text {
+/* #text {
 	color: magenta;
-}
+} */
