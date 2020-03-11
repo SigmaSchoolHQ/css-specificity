@@ -29,25 +29,30 @@ div {
 	padding: 1rem;
 } */
 
-h1 {
-	color: white;
-	border: 1px solid white;
-	padding: 1rem;
-}
-
 /* Targeting an element by class */
 .heading {
 	color: #333;
 	background-color: #15ccbb;
 }
 
-/* Targeting an element by id */
-/* #main {
-	color: purple;
-	border: 3px solid purple;
-	border-radius: 3px;
+h1 {
+	color: white;
+	border: 1px solid white;
 	padding: 1rem;
-} */
+}
+
+/* matching specificity - lowest wins */
+#main {
+	color: yellow;
+	border: 5px solid yellow;
+}
+
+/* Targeting an element by id */
+#main {
+	color: cornflowerblue;
+	background-color: silver;
+	border: 5px solid cornflowerblue;
+}
 
 /* p {
 	color: blue;
