@@ -23,9 +23,43 @@ div {
 }
 
 /* Targeting an element by class */
+.heading {
+	color: #333;
+	background-color: #15ccbb;
+}
 
 /* Targeting an element by name */
+h1 {
+	color: white !important;
+	border: 1px solid white !important;
+	padding: 1rem;
+}
 
 /* matching specificity - lowest wins */
+#main {
+	color: yellow;
+	border: 5px solid yellow;
+}
 
 /* Targeting an element by id */
+#main {
+	color: cornflowerblue;
+	background-color: silver;
+	border: 5px solid cornflowerblue;
+}
+
+p {
+	color: blue;
+}
+
+p.paragraph {
+	color: purple;
+}
+
+.paragraph {
+	color: green;
+}
+
+#text {
+	color: magenta;
+}
